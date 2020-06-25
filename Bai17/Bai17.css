@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+#header
+{
+	width: 100%;
+}
+#header_top
+{
+	width: 100%;
+}
+#logo
+{
+	width: 50%;
+	float: left;
+}
+#logo a img
+{
+	width: 100px;
+	height: auto;
+	margin: 10px;
+}
+#button
+{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+#button input
+{
+	margin: 20px 10px;
+	padding: 10px 20px;
+	color: white;
+	background-color: gray;
+	border-radius: 8px;
+}
+#header_bottom
+{
+	width: 100%;
+}
+#link
+{
+	width: 50%;
+	float: left;
+}
+#link a
+{
+	text-decoration: none;
+	margin-left: 28px;
+}
+#link a:hover
+{
+	text-decoration: underline;
+}
+#list_link
+{
+	width: 50%;
+	float: right;
+	padding-left: 180px;
+}
+#list_link ul li
+{
+	list-style: none;
+	border-right: 1px solid blue;
+	float: left;
+}
+#list_link ul li:last-child
+{
+	border-right: none;
+}
+#list_link ul li a
+{
+	float: left;
+	text-decoration: none;
+	padding: 0px 15px;
+}
+#list_link ul li a:hover
+{
+	text-decoration: underline;
+}
+#menu
+{
+	width: 100%;
+	margin-top: 20px;
+	float: left;
+	background-color: gray;
+}
+#menu ul 
+{
+	list-style: none;
+	
+}
+
+#menu ul a:hover
+{
+	text-decoration: underline;
+}
+#main
+{
+	width: 100%;
+	float: left;
+}
+#main_left
+{
+	width: 75%;
+	float: left;
+}
+#main_right
+{
+	width: 20%;
+	float: right;
+}
+#sanpham
+{
+	width: 100%;
+	float: left;
+}
+#sanpham>p
+{
+	color: dimgray;
+	font-size: 25px;
+	border-bottom: 2px solid gray;
+	margin: 20px 10px;
+}
+#spmoi
+{
+	width: 100%;
+	float: left;
+	text-align: justify;
+}
+#spmoi a img
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 0px 20px 0px 10px;
+}
+#spmoi span
+{
+	color: blue;
+	font-size: 25px;
+	text-align: center;
+}
