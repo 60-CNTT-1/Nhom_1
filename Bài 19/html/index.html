@@ -73,11 +73,11 @@
                 </div>
                 <script>
                     var n = new Date();
-                    var d = n.getUTCDay() + 7;
+                    var d = n.getDate();
                     document.getElementById("days").innerHTML = d;
-                    var m = n.getUTCMonth() + 1;
+                    var m = n.getMonth() + 1;
                     document.getElementById("month").innerHTML = m;
-                    var y = n.getUTCFullYear();
+                    var y = n.getFullYear();
                     document.getElementById("year").innerHTML = y;
                 </script>                
                 <hr style="width: 90%;">
